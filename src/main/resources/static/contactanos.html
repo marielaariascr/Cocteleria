@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Contactanos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <section id="fondocontactanos">
+            <h2 style="text-align: center; color: navy">Contactanos</h2>
+            <article>
+                <form action="#" method="GET">
+                    <label>Nombre</label>  -  <input type="text" name="nombre" placeholder="digite su nombre" size="50" /><br/>
+                    <label>Apellido</label> - <input type="text" name="apellido" placeholder="digite su apellido" size="50" /><br/>
+                    <label for="Asunto">Asunto:</label>
+                    <select id="Asunto">
+                        <option value="">--Seleccione una opcion--</option>
+                        <option value="Sugerencia">Sugerencia</option>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <br/>
+                    <label>Mensaje</label><br/> - <textarea name="Mensaje" rows="7" cols="50" placeholder="Digite su mensaje"></textarea><br/>
+                    <label>Fecha</label> - <input type="date" name="dia" min="2021-01-01" max="2058-12-31" /><br/>
+                    <label>email</label> - <input type="email" name="correo" placeholder="xxx@xxx.xxx" /><br/>
+                    <label>tel</label> - <input type="tel" name="tel" placeholder="506-xxxx-xxxx" /><br/>
+                    <label>reset</label> - <input type="reset" name="reset" value="Limpiar" /><br />
+                    <label>submit</label> - <input type="submit" value="Enviar" /><br />                                            
+                </form>    
+            </article>
+        </section>
+        <br />
+        <footer>Derechos reservados &COPY; 2023</footer>
+    </body>
+</html>

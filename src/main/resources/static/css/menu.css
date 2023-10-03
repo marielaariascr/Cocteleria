@@ -1,0 +1,15 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 2, 2023, 3:52:25 PM
+    Author     : mariassuarez
+*/
+
+.nav-menu-lateral-item{
+    font-size: 18px;
+    margin: 0 18px;
+    line-height: 30px;
+    width: max-content;
+}
