@@ -78,3 +78,44 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     background-color: lightcoral;  
 }
 
+#fondosecretos{
+    position: absolute;  
+    top: 0%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background-color: lightcoral;  
+}
+
+#fondovideos{
+    position: absolute;  
+    top: 0%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background-color: lightblue;  
+}
+
+#fondotecnicas{
+    position: absolute;  
+    top: 0%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background-color: lightsteelblue;  
+}
+
+#fondotipos{
+    position: absolute; 
+    top: 0%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    background-color: lightslategray;  
+}
+
+
